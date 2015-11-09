@@ -21,13 +21,10 @@
 #
 
 # inherit from common JF
--include device/samsung/jf-common/BoardConfigCommon.mk
+include device/samsung/jf-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
 -include vendor/samsung/jflter970/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := jfltecri
-
-# Kernel
-TARGET_KERNEL_CONFIG    := jf_cri_defconfig
+TARGET_OTA_ASSERT_DEVICE := jfltecri,jflte
