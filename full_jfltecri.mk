@@ -37,7 +37,3 @@ PRODUCT_MODEL := SCH-R970C
 # Qualcomm
 PRODUCT_PACKAGES += \
     libcnefeatureconfig
-
-# Stlport
-PRODUCT_PACKAGES += \
-    libstlport
